@@ -24,6 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0px;
 }
 
 @layer utilities {
