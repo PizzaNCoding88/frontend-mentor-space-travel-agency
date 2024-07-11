@@ -1,5 +1,5 @@
 .navigation {
-  @apply mx-auto flex justify-between items-center;
+  @apply mx-auto flex justify-between items-center py-8;
 }
 
 .burgermenu {

@@ -1,5 +1,5 @@
 .hero {
-  @apply flex flex-col gap-10 text-center text-lightBlue;
+  @apply flex flex-col gap-10 text-center text-lightBlue             h-[calc(100vh-112px)] justify-between py-12;
 }
 
 .intro {
@@ -12,4 +12,8 @@
 
 .subintro {
   @apply text-body font-barlow;
+}
+
+.ctaBtn {
+  @apply w-40 h-40  mx-auto rounded-full bg-white uppercase text-darkNavy text-mobileHeadingS font-bellefair;
 }
