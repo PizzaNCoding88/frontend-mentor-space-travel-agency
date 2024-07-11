@@ -1,0 +1,15 @@
+.hero {
+  @apply flex flex-col gap-10 text-center text-lightBlue;
+}
+
+.intro {
+  @apply uppercase text-mobileHeadingXS font-barlowCondensed;
+}
+
+.h1 {
+  @apply uppercase text-white text-mobileHeadingXL font-bellefair;
+}
+
+.subintro {
+  @apply text-body font-barlow;
+}
