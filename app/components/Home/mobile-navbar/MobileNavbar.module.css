@@ -1,0 +1,11 @@
+.navigation {
+  @apply mx-auto flex justify-between items-center;
+}
+
+.burgermenu {
+  @apply flex flex-col gap-2;
+}
+
+.burgermenu span {
+  @apply inline-block bg-lightBlue h-1 w-8 rounded-sm;
+}

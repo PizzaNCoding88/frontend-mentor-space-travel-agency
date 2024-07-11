@@ -34,3 +34,11 @@ body {
     text-wrap: balance;
   }
 }
+
+main {
+  min-height: 100vh;
+  background-image: url("../app/assets/home/background-home-mobile.jpg");
+  background-size: cover;
+  padding-top: 1.5rem;
+  padding-inline: 1.5rem;
+}
