@@ -1,0 +1,39 @@
+.sidebar {
+  @apply absolute w-3/4 h-screen right-0 top-0 bg-[rgba(11,13,23,.75)] backdrop-blur-md z-20 text-white flex items-center justify-center pb-[35vh];
+}
+
+.sidebar ul {
+  @apply flex flex-col gap-4;
+}
+
+.sidebar li {
+  @apply z-50 text-navigationBold uppercase;
+}
+
+.count {
+  @apply font-bold inline;
+}
+
+.name {
+  @apply inline pl-2;
+}
+
+.closeBtnContainer {
+  @apply absolute top-8 right-12;
+}
+
+.closeBtn {
+  @apply relative;
+}
+
+.closeBtn span {
+  @apply inline-block w-6 h-1 bg-lightBlue absolute;
+}
+
+.spanTop {
+  @apply rotate-45;
+}
+
+.spanBottom {
+  @apply -rotate-45;
+}

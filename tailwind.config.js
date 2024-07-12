@@ -37,6 +37,7 @@ module.exports = {
       subheadingS: ["14px", { lineHeight: "16.8%", letterSpacing: "2px" }],
       navText: ["16px", { lineHeight: "19.2%", letterSpacing: "2px" }],
       body: ["15px", { lineHeight: "180%", letterSpacing: "2px" }],
+      navigationBold: ["16px", { lineHeight: "180%", letterSpacing: "2px" }],
     },
     extend: {},
   },
