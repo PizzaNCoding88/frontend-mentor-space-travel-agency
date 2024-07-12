@@ -9,6 +9,9 @@ import Sidebar from "../sidebar/Sidebar";
 
 const MobileNavBar = () => {
   const [sidebar, setSidebar] = useState(false);
+  function changeSidebarStatus() {
+    setSidebar(!sidebar);
+  }
   return (
     <>
       <nav className={Navbar.navigation}>
@@ -25,7 +28,7 @@ const MobileNavBar = () => {
           <span></span>
           <span></span>
         </button>
-        {sidebar && <Sidebar sidebar={setSidebar} />}
+        {sidebar && <Sidebar status={changeSidebarStatus} />}
       </nav>
     </>
   );

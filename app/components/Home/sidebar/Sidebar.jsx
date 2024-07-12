@@ -2,12 +2,12 @@ import React from "react";
 import SideBar from "./Sidebar.module.css";
 
 const Sidebar = (props) => {
-  const { setSidebar } = props;
+  const { status } = props;
   return (
     <>
       <div className={SideBar.sidebar}>
         <div className={SideBar.closeBtnContainer}>
-          <button onClick={() => setSidebar} className={SideBar.closeBtn}>
+          <button onClick={() => status()} className={SideBar.closeBtn}>
             <span className={SideBar.spanTop}></span>
             <span className={SideBar.spanBottom}></span>
           </button>
