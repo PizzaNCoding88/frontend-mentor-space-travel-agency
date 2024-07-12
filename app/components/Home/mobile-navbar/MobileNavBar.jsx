@@ -25,7 +25,7 @@ const MobileNavBar = () => {
           <span></span>
           <span></span>
         </button>
-        {sidebar && <Sidebar />}
+        {sidebar && <Sidebar sidebar={setSidebar} />}
       </nav>
     </>
   );
