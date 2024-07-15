@@ -16,7 +16,9 @@ const MobileNavBar = () => {
     <>
       <nav className={Navbar.navigation}>
         <div>
-          <Image alt="logo" src={Logo} />
+          <a href="/">
+            <Image alt="logo" src={Logo} />
+          </a>
         </div>
         <button
           onClick={() => {

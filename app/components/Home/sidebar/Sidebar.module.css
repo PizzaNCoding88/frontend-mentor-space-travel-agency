@@ -7,7 +7,7 @@
 }
 
 .sidebar li {
-  @apply z-50 text-navigationBold uppercase;
+  @apply z-50 text-navigationBold uppercase relative inline;
 }
 
 .count {
@@ -37,3 +37,10 @@
 .spanBottom {
   @apply -rotate-45;
 }
+/* .sidebar li::after {
+  @apply content-[''] absolute w-full h-[2px] bg-white bottom-0 left-0 rounded-full;
+} */
+
+/* .sidebar a::after {
+  @apply content-[''] absolute w-full h-[2px] bg-white bottom-0 left-0 rounded-full;
+} */

@@ -22,7 +22,7 @@ const barlow = Barlow({
 });
 
 export const metadata = {
-  title: "Space Tourism",
+  title: "Space Tourism - Home",
   description: "Frontend Mentor Challenge - Space Tourism Multipage Website",
 };
 

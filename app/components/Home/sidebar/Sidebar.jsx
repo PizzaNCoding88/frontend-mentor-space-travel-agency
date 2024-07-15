@@ -1,8 +1,10 @@
 import React from "react";
 import SideBar from "./Sidebar.module.css";
+import { usePathname } from "next/navigation";
 
 const Sidebar = (props) => {
   const { status } = props;
+  const pathname = usePathname();
   return (
     <>
       <div className={SideBar.sidebar}>
@@ -14,7 +16,7 @@ const Sidebar = (props) => {
         </div>
         <ul>
           <li>
-            <a href="/">
+            <a className={SideBar.a} href="/">
               <p className={SideBar.count}>00</p>
               <p className={SideBar.name}>Home</p>
             </a>
