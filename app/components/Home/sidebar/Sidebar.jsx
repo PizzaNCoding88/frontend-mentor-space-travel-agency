@@ -14,13 +14,13 @@ const Sidebar = (props) => {
         </div>
         <ul>
           <li>
-            <a href="">
+            <a href="/">
               <p className={SideBar.count}>00</p>
               <p className={SideBar.name}>Home</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="/destination">
               <p className={SideBar.count}>01</p>
               <p className={SideBar.name}>Destination</p>
             </a>
