@@ -3,11 +3,15 @@
 }
 
 .sidebar ul {
-  @apply flex flex-col gap-4;
+  @apply flex flex-col gap-4 w-full pl-[25%];
 }
 
 .sidebar li {
   @apply z-50 text-navigationBold uppercase relative inline;
+}
+
+.sidebar li::after:hover {
+  @apply content-[''] absolute w-1 h-full bg-white bottom-0 right-0 rounded-full;
 }
 
 .count {
@@ -37,10 +41,3 @@
 .spanBottom {
   @apply -rotate-45;
 }
-/* .sidebar li::after {
-  @apply content-[''] absolute w-full h-[2px] bg-white bottom-0 left-0 rounded-full;
-} */
-
-/* .sidebar a::after {
-  @apply content-[''] absolute w-full h-[2px] bg-white bottom-0 left-0 rounded-full;
-} */
