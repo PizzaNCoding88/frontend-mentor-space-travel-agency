@@ -1,0 +1,34 @@
+.hero {
+  @apply flex flex-col gap-10 text-center text-lightBlue             h-[calc(100vh-112px)] justify-between py-12;
+}
+
+.destinationPickerContainer {
+  @apply flex uppercase text-white text-mobileHeadingXS font-barlowCondensed justify-center gap-4;
+}
+
+.destinationPickerContainer .number {
+  @apply text-[rgb(100,100,100)] font-bold;
+}
+
+/* .intro {
+  @apply uppercase text-mobileHeadingXS font-barlowCondensed;
+}
+
+.h1 {
+  @apply uppercase text-white text-mobileHeadingXL font-bellefair;
+}
+
+.subintro {
+  @apply text-body font-barlow;
+}
+.ctaBtn {
+  @apply relative w-40 h-40  mx-auto rounded-full bg-white uppercase text-darkNavy text-mobileHeadingS font-bellefair z-10;
+}
+
+.ctaBtn:after {
+  @apply content-[''] bg-[rgba(255,255,255,0.51)] inline-block absolute -translate-x-1/2 -translate-y-1/2 rounded-full left-1/2 top-1/2 -z-10 w-52 h-52 opacity-0 transition-all duration-500;
+}
+
+.ctaBtn:hover.ctaBtn::after {
+  @apply opacity-100;
+} */
