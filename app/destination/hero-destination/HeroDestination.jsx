@@ -42,11 +42,16 @@ const hero = () => {
           landing sites.
         </div>
         <div className={HeroDestination.divider}></div>
-        <div className={HeroDestination.distance}>
-          <p>avg. distance</p>
-          <h2>384,400 KM</h2>
+        <div className={HeroDestination.bottomPart}>
+          <div className={HeroDestination.distance}>
+            <p>avg. distance</p>
+            <h2>384,400 KM</h2>
+          </div>
+          <div className={HeroDestination.travelTime}>
+            <p>Est. travel time</p>
+            <h2>3 days</h2>
+          </div>
         </div>
-        <div className={HeroDestination.travelTime}></div>
       </div>
     </>
   );

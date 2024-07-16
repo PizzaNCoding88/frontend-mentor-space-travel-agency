@@ -1,5 +1,5 @@
 .hero {
-  @apply flex flex-col gap-[3vw] text-center text-lightBlue h-[calc(100vh-112px)] items-center py-4;
+  @apply flex flex-col gap-[3vw] text-center text-lightBlue h-[calc(100vh-112px)] items-center py-8;
 }
 
 .destinationPickerContainer {
@@ -34,15 +34,22 @@
   @apply h-[2px] w-full bg-[rgb(151,151,151)];
 }
 
-.distance {
-  @apply flex flex-col uppercase;
+.bottomPart {
+  @apply flex flex-col gap-10;
 }
 
-.distance p {
+.distance,
+.travelTime {
+  @apply flex flex-col uppercase gap-4;
+}
+
+.distance p,
+.travelTime p {
   @apply text-subheadingS font-barlowCondensed font-bold;
 }
 
-.distance h2 {
+.distance h2,
+.travelTime h2 {
   @apply text-subheadingL text-white font-bellefair;
 }
 
