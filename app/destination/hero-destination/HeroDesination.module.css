@@ -1,5 +1,5 @@
 .hero {
-  @apply flex flex-col gap-10 text-center text-lightBlue             h-[calc(100vh-112px)] justify-between py-12;
+  @apply flex flex-col gap-10 text-center text-lightBlue h-[calc(100vh-112px)] items-center py-12;
 }
 
 .destinationPickerContainer {
@@ -8,6 +8,26 @@
 
 .destinationPickerContainer .number {
   @apply text-[rgb(100,100,100)] font-bold;
+}
+
+.pictureContainer {
+  @apply w-24 h-24;
+}
+
+.destinationSelectorContainer {
+  @apply text-mobileNavigation font-barlowCondensed text-white flex gap-4;
+}
+
+.destinationSelectorContainer button {
+  @apply uppercase;
+}
+
+.planetSelected {
+  @apply uppercase text-mobileHeadingL font-bellefair text-white;
+}
+
+.plantedExplanation {
+  @apply text-body text-lightBlue font-barlow;
 }
 
 /* .intro {
