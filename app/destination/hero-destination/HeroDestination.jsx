@@ -41,6 +41,12 @@ const hero = () => {
           there, take in some history by visiting the Luna 2 and Apollo 11
           landing sites.
         </div>
+        <div className={HeroDestination.divider}></div>
+        <div className={HeroDestination.distance}>
+          <p>avg. distance</p>
+          <h2>384,400 KM</h2>
+        </div>
+        <div className={HeroDestination.travelTime}></div>
       </div>
     </>
   );
