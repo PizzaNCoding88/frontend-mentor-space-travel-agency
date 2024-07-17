@@ -11,7 +11,7 @@
 }
 
 .pictureContainer {
-  @apply w-24 h-24;
+  @apply w-28 h-28 relative;
 }
 
 .destinationSelectorContainer {
@@ -35,7 +35,7 @@
 }
 
 .bottomPart {
-  @apply flex flex-col gap-10;
+  @apply flex flex-col gap-7;
 }
 
 .distance,
@@ -52,26 +52,3 @@
 .travelTime h2 {
   @apply text-subheadingL text-white font-bellefair;
 }
-
-/* .intro {
-  @apply uppercase text-mobileHeadingXS font-barlowCondensed;
-}
-
-.h1 {
-  @apply uppercase text-white text-mobileHeadingXL font-bellefair;
-}
-
-.subintro {
-  @apply text-body font-barlow;
-}
-.ctaBtn {
-  @apply relative w-40 h-40  mx-auto rounded-full bg-white uppercase text-darkNavy text-mobileHeadingS font-bellefair z-10;
-}
-
-.ctaBtn:after {
-  @apply content-[''] bg-[rgba(255,255,255,0.51)] inline-block absolute -translate-x-1/2 -translate-y-1/2 rounded-full left-1/2 top-1/2 -z-10 w-52 h-52 opacity-0 transition-all duration-500;
-}
-
-.ctaBtn:hover.ctaBtn::after {
-  @apply opacity-100;
-} */

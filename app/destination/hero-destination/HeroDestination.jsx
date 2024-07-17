@@ -10,39 +10,28 @@ import { useState } from "react";
 const Hero = () => {
   const [dataDisplay, setDataDisplay] = useState({ data });
   let moonImg = Moon.src;
-  {
-    console.log(moonImg, Moon);
-  }
   const [imgSrc, setImgSrc] = useState({ moonImg });
   let dataJson = data;
-  // console.log(data.destinations[0]);
-  // let imgSrc = data.destinations[0].images.png;
 
   function setDataOnButton(num) {
     setDataDisplay(dataJson.destinations[num]);
     setImgSrc(dataJson.destinations[num].images.png);
-    // console.log(dataDisplay);
-    // console.log(dataDisplay.images.png);
   }
   return (
     <>
-      {/* {console.log(Moon)} */}
       <div className={HeroDestination.hero}>
         <div className={HeroDestination.destinationPickerContainer}>
           <p className={HeroDestination.number}>01</p>
           <p>Pick your destination</p>
         </div>
-
-        {/* <Image alt="destination picture" src={Moon} /> */}
         {dataDisplay.name && (
           <div className={HeroDestination.pictureContainer}>
             <Image
               alt="destination picture"
-              // src={`${imgSrc} ? ${imgSrc} : ${Moon.src}`}
-              // src={imgSrc ? imgSrc : Moon.src}
               src={imgSrc}
-              width={100}
-              height={100}
+              objectFit="cover"
+              fill
+              className="w-full h-full top-0 left-0 !relative"
             />
           </div>
         )}
