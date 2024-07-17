@@ -32,8 +32,7 @@ const hero = () => {
           {/* <Image alt="destination picture" src={Moon} /> */}
           <Image
             alt="destination picture"
-            src={Moon}
-            // src={imgSrc ? imgSrc : Moon}
+            src={imgSrc}
             width={100}
             height={100}
           />
