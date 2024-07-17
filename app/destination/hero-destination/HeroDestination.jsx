@@ -2,7 +2,8 @@
 import React from "react";
 import HeroDestination from "./HeroDesination.module.css";
 import Image from "next/image";
-import Moon from "./assets/destination/image-moon.webp";
+import Moon from "../../../public/assets/destination/image-moon.png";
+// import Moon from "../../../assets/destination/image-moon.webp";
 import data from "../../data/data.json";
 import { useState } from "react";
 
@@ -31,7 +32,7 @@ const hero = () => {
           {/* <Image alt="destination picture" src={Moon} /> */}
           <Image
             alt="destination picture"
-            src={imgSrc}
+            src={imgSrc ? imgSrc : Moon}
             width={100}
             height={100}
           />
