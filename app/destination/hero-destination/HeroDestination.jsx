@@ -7,7 +7,7 @@ import Moon from "../../../public/assets/destination/image-moon.png";
 import data from "../../data/data.json";
 import { useState } from "react";
 
-const hero = () => {
+const Hero = () => {
   const [dataDisplay, setDataDisplay] = useState({ data });
   const [imgSrc, setImgSrc] = useState({ Moon });
   let dataJson = data;
@@ -94,4 +94,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;
