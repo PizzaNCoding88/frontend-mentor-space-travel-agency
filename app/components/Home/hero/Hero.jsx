@@ -16,7 +16,9 @@ const hero = () => {
           </p>
         </div>
         <div className={Hero.cta}>
-          <button className={Hero.ctaBtn}>Explore</button>
+          <a href="/destination">
+            <button className={Hero.ctaBtn}>Explore</button>
+          </a>
         </div>
       </div>
     </>
