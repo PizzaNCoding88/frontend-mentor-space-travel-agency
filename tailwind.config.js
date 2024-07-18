@@ -29,6 +29,7 @@ module.exports = {
         { lineHeight: "171.9%", letterSpacing: "auto" },
       ],
       mobileHeadingL: ["56px", { lineHeight: "120.9%", letterSpacing: "auto" }],
+      mobileHeadingM: ["24px", { lineHeight: "120.9%", letterSpacing: "auto" }],
       mobileHeadingS: ["18px", { lineHeight: "171.9%", letterSpacing: "auto" }],
       mobileHeadingXS: [
         "16px",
