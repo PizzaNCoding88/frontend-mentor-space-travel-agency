@@ -39,7 +39,7 @@ const Sidebar = (props) => {
             </a>
           </li>
           <li className={`${path == 3 ? "pageIndicator" : ""}`}>
-            <a href="">
+            <a href="/crew">
               <p className={SideBar.count}>02</p>
               <p className={SideBar.name}>Crew</p>
             </a>
