@@ -66,10 +66,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className={HeroDestination.planetSelected}>
-          {dataDisplay.name}
-          {/* {dataDisplay.name ? dataDisplay.name : "Moon"} */}
-        </div>
+        <div className={HeroDestination.planetSelected}>{dataDisplay.name}</div>
         {dataDisplay.name && (
           <div className={HeroDestination.plantedExplanation}>
             {dataDisplay.description

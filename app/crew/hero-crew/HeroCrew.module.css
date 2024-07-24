@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
   @apply flex flex-col gap-[3vw] text-center text-lightBlue h-[calc(100vh-112px)] items-center py-8;
 }
 
@@ -32,4 +32,12 @@
 
 .imgContainer {
   @apply w-full h-full;
+} */
+
+.header {
+  @apply flex uppercase text-white text-mobileHeadingXS font-barlowCondensed justify-center gap-4;
+}
+
+.header p {
+  @apply text-[rgb(100,100,100)] font-bold;
 }

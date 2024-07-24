@@ -1,0 +1,31 @@
+.container {
+  @apply flex flex-col justify-center items-center text-center gap-4;
+}
+
+.job {
+  @apply text-[rgb(100,100,100)]  uppercase text-mobileHeadingS font-bellefair;
+}
+
+.fullname {
+  @apply text-mobileHeadingM uppercase font-bellefair;
+}
+
+.description {
+  @apply text-body text-lightBlue;
+}
+
+.slideIndicator {
+  @apply flex justify-center gap-2;
+}
+
+.slideIndicator span {
+  @apply w-2 h-2 rounded-full bg-[rgb(100,100,100)];
+}
+
+.slideIndicator :nth-child(1) {
+  @apply !bg-white;
+}
+
+.pictureContainer {
+  @apply w-48 h-48 relative;
+}
