@@ -45,3 +45,15 @@ main {
 .slick-dots {
   display: none !important;
 }
+
+.slick-prev {
+  left: -10px !important;
+}
+
+.slick-next {
+  right: -10px !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}

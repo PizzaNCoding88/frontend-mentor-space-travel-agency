@@ -15,6 +15,8 @@ const SlidingCarousel = () => {
     slidesToScroll: 1,
     waitForAnimate: false,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
   };
 
   let crew = dataUrl.crew;
