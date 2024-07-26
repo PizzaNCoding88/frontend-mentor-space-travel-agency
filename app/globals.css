@@ -41,3 +41,7 @@ main {
   background-size: cover;
   padding-inline: 1.5rem;
 }
+
+.slick-dots {
+  display: none !important;
+}

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import MobileNavBar from "./components/Home/mobile-navbar/MobileNavBar";
 import Hero from "./components/Home/hero/Hero";
 
