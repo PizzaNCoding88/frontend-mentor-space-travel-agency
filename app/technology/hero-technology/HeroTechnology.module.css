@@ -1,0 +1,7 @@
+.header {
+  @apply flex uppercase text-white text-mobileHeadingXS font-barlowCondensed justify-center gap-4;
+}
+
+.header p {
+  @apply text-[rgb(100,100,100)] font-bold;
+}
