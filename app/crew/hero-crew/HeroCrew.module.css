@@ -1,39 +1,3 @@
-/* .hero {
-  @apply flex flex-col gap-[3vw] text-center text-lightBlue h-[calc(100vh-112px)] items-center py-8;
-}
-
-.destinationPickerContainer {
-  @apply flex uppercase text-white text-mobileHeadingXS font-barlowCondensed justify-center gap-4;
-}
-
-.destinationPickerContainer .number {
-  @apply text-[rgb(100,100,100)] font-bold;
-}
-
-.staffTitle {
-  @apply text-mobileHeadingS uppercase text-[rgb(100,100,100)];
-}
-
-.staffName {
-  @apply text-mobileHeadingM uppercase text-white;
-}
-
-.staffBio {
-  @apply text-body text-lightBlue;
-}
-
-.staffSelector {
-  @apply flex gap-2;
-}
-
-.staffSelector button {
-  @apply w-2 h-2 rounded-full bg-white;
-}
-
-.imgContainer {
-  @apply w-full h-full;
-} */
-
 .header {
   @apply flex uppercase text-white text-mobileHeadingXS font-barlowCondensed justify-center gap-4;
 }

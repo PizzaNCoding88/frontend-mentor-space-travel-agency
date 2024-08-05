@@ -1,25 +1,16 @@
 import React from "react";
 import Slide from "./Slides.module.css";
 import Image from "next/image";
-import Douglas from "../../assets/crew/image-douglas-hurley.png";
 
 const Slides = (props) => {
   const { crew, index } = props;
-  //   {
-  //     console.log(crew);
-  //   }
+
   return (
     <>
       <div className={Slide.container}>
         <div className={Slide.job}>{crew.role}</div>
         <div className={Slide.fullname}>{crew.name}</div>
         <p className={Slide.description}>{crew.bio}</p>
-        {/* <div className={Slide.slideIndicator}>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> */}
 
         <Image
           alt="crew"
