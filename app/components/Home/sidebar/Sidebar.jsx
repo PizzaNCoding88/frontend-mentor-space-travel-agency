@@ -47,7 +47,7 @@ const Sidebar = (props) => {
           <li className={`${path == 4 ? "pageIndicator" : ""}`}>
             <a href="/technology">
               <p className={SideBar.count}>03</p>
-              <p className={SideBar.name}>Technlogy</p>
+              <p className={SideBar.name}>Technology</p>
             </a>
           </li>
         </ul>
