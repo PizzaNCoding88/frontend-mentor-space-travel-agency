@@ -1,3 +1,7 @@
 .container {
-  @apply flex flex-col justify-center items-center;
+  @apply flex flex-col justify-center items-center pt-8;
+}
+
+.imageContainer {
+  @apply w-screen flex items-center justify-center h-64;
 }

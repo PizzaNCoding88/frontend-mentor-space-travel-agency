@@ -6,13 +6,15 @@ const SlidesTechnology = (props) => {
   const { technology, index } = props;
   console.log(technology);
   return (
-    <div className={Slides.container}>
+    <div className={Slides}>
       <div className={Slides.imageContainer}>
         <Image
           alt="technology pic"
           src={technology.images.portrait}
-          width={350}
-          height={350}
+          objectFit="cover"
+          // width={200}
+          // height={200}
+          fill="true"
         />
       </div>
       <div className={Slides.slideIndicator}>
