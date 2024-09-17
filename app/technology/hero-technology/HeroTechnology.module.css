@@ -5,3 +5,11 @@
 .header p {
   @apply text-[rgb(100,100,100)] font-bold;
 }
+
+.slideCounter {
+  @apply flex justify-center gap-4 text-mobileHeadingS font-bellefair;
+}
+
+.slideCounter span {
+  @apply border-2 border-[rgba(255,255,255,0.25)] rounded-full w-10 h-10 flex items-center justify-center;
+}
