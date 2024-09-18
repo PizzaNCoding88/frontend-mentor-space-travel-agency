@@ -5,3 +5,11 @@
 .imageContainer {
   @apply w-screen flex items-center justify-center h-64;
 }
+
+.slideIndicator {
+  @apply z-10;
+}
+
+.name {
+  @apply z-10;
+}

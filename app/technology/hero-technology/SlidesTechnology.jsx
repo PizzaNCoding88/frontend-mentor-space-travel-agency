@@ -4,9 +4,8 @@ import Slides from "./Slides.module.css";
 
 const SlidesTechnology = (props) => {
   const { technology, index } = props;
-  console.log(technology);
   return (
-    <div className={Slides}>
+    <div className={Slides.container}>
       <div className={Slides.imageContainer}>
         <Image
           alt="technology pic"
@@ -18,13 +17,12 @@ const SlidesTechnology = (props) => {
         />
       </div>
       <div className={Slides.slideIndicator}>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
       </div>
-      <div className={Slides.technology}>
-        <p></p>
-        <h2></h2>
+      <div className={Slides.name}>
+        <h2>{technology.name}</h2>
         <p></p>
       </div>
     </div>

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dataFile from "../../data/data.json";
 import SlidesTechnology from "./SlidesTechnology";
+import SlidingCarousel from "./SlidingCarousel.module.css";
 
 const SlidingCarouselTechnology = () => {
   const settings = {
@@ -17,16 +18,25 @@ const SlidingCarouselTechnology = () => {
     waitForAnimate: false,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3500,
   };
   const technology = dataFile.technology;
 
   return (
-    <Slider {...settings}>
-      {technology.map((technology, index) => (
-        <SlidesTechnology technology={technology} key={index} />
-      ))}
-    </Slider>
+    <>
+      <Slider {...settings}>
+        {technology.map((technology, index) => (
+          <SlidesTechnology technology={technology} key={index} />
+        ))}
+      </Slider>
+
+      {/* <div className={SlidingCarousel.technology}>
+        <p>The Terminology...</p>
+        <h2>{technology[0].name}</h2>
+        {console.log(technology[0].name)}
+        <p></p>
+      </div> */}
+    </>
   );
 };
 

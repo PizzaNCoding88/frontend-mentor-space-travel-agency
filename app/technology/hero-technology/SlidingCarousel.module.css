@@ -1,0 +1,14 @@
+.slideIndicator {
+  @apply flex justify-center gap-4 text-mobileHeadingS font-bellefair mt-4;
+}
+.slideIndicator span {
+  @apply border-2 border-[rgba(255,255,255,0.25)] rounded-full w-10 h-10 flex items-center justify-center;
+}
+
+.technology {
+  @apply text-center;
+}
+
+.technology p {
+  @apply text-lightBlue uppercase text-mobileHeadingS font-bellefair;
+}

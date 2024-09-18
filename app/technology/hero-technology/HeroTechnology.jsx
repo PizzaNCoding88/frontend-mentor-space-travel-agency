@@ -12,11 +12,11 @@ const HeroTechnology = () => {
         <h1>space launch 101</h1>
       </div>
       <SlidingCarouselTechnology />
-      <div className={Hero.slideCounter}>
+      {/* <div className={Hero.slideCounter}>
         <span>1</span>
         <span>2</span>
         <span>3</span>
-      </div>
+      </div> */}
     </div>
   );
 };
